@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <GridLayout
+            android:id="@+id/buttons"
+            android:layout_width="371dp"
+            android:layout_height="260dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="50dp"
+            android:columnCount="5"
+            android:rowCount="5"
+            android:visibility="gone"
+            android:layout_below="@+id/header">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+
+                <Button
+                    android:id="@+id/button_25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="" android:background="@drawable/bingo_buttons" android:backgroundTint="#b38c19" />
+            </LinearLayout>
+
+        </GridLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/GameStart"
+            android:visibility="gone"
+            android:text="Start Game"
+            android:layout_below="@+id/buttons"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="invisible"
+            android:layout_below="@+id/GameStart"
+            android:layout_marginTop="10dp"
+            android:id="@+id/status"/>
+
+
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/teal_700"
+    android:textColor="@color/white"
+    android:textAlignment="center"
+    android:id="@+id/header"
+    android:paddingTop="10dp"
+    android:text="WELCOME TO BINGO"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="100dp"
+        android:text="Start A new Game"
+        android:layout_below="@+id/header"
+        android:layout_centerInParent="true"
+        android:id="@+id/createGroup"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:layout_centerInParent="true"
+            android:id="@+id/or"
+            android:layout_below="@+id/createGroup"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/or"
+            android:text="Join a Game"
+            android:layout_centerInParent="true"
+            android:id="@+id/joinButton"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/joinButton"
+            android:layout_marginTop="50dp"
+            android:hint="Enter Your Name"
+            android:visibility="invisible"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/code"
+            android:hint="Enter code"
+            android:layout_below="@+id/name"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/code"
+            android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/joinCode"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/code"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:text="Join"
+            android:visibility="invisible"
+            android:id="@+id/join"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/code"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:text="Create"
+            android:visibility="invisible"
+            android:id="@+id/start"/>
+
+    </RelativeLayout>
+</ScrollView>

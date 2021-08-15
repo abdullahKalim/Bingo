@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="end"
+    android:id="@+id/drawer_layout"
+    tools:context=".GameActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="5"
+            android:columnCount="5"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp">
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/image_1"
+                android:src="@drawable/number_1"/>
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/image_2"
+                android:src="@drawable/number_2"/>
+
+
+        </GridLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editNumber"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showChat"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:id="@+id/OpenChat"
+        android:text="Open Chat"
+        tools:ignore="UnknownId" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editNumber"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/sendNumber"
+        android:text="Send Number"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showNumber"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/sendNumber"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="end"
+        android:id="@+id/nav_view">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/ChatEdit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="top"
+
+                android:hint="Enter message"
+                android:layout_marginEnd="10dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/sent"
+                android:layout_alignEnd="@+id/ChatEdit"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="-4dp"
+                android:layout_alignBottom="@+id/ChatEdit"
+                android:src="@drawable/ic_action_name"
+                tools:ignore="UnknownId" />
+
+        <ScrollView
+            android:id="@+id/scrollChat"
+            android:layout_width="match_parent"
+            android:layout_height="717dp"
+            android:layout_below="@+id/ChatEdit">
+
+            <LinearLayout
+                android:id="@+id/chats"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+        </RelativeLayout>
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

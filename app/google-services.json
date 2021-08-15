@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "732793596116",
+    "project_id": "bingo-z",
+    "storage_bucket": "bingo-z.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732793596116:android:40c9486917a9ea3a903341",
+        "android_client_info": {
+          "package_name": "com.example.bingo_z"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732793596116-8f02k90613eimr5le1311lh09ooe8b0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bingo_z",
+            "certificate_hash": "38c0d53e68d74c26b43b3c12825ff3ed6219bba7"
+          }
+        },
+        {
+          "client_id": "732793596116-4rbong939l4s2gonrucsnm95lsiu91fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2rWvFhwjhf1hUA8XenrfLKUobMJpsUZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732793596116-4rbong939l4s2gonrucsnm95lsiu91fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
